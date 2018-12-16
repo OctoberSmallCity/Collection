@@ -19,7 +19,7 @@ public class BinarySearch {
 					left = mid + 1;
 				}
 			}
-			for(int j = i -1;j > right;j--) {  //找到插入的位置
+			for(int j = i -1;j > right;j--) {  //找到插入位置
 				arr[j+1] = arr[j];
 			}
 			arr[right+1] = temp;
