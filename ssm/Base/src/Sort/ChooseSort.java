@@ -1,7 +1,7 @@
 package Sort;
 
 import java.util.Scanner;
-//选择排序 时间复杂度O(n^2)
+//閫夋嫨鎺掑簭 鏃堕棿澶嶆潅搴︿负O(n^2)
 public class ChooseSort {
 	
 	public static void sort(int []arr) {
