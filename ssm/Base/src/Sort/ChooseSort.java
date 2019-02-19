@@ -6,9 +6,9 @@ public class ChooseSort {
 	
 	public static void sort(int []arr) {
 		int len = arr.length;
-		for(int i = 0;i < len;i++) {
-			for(int j = i+1;j < len;j++) {
-				if(arr[i] > arr[j]) {
+		for(int i = 0;i < len;i++) {   //依次选择需要排序的元素
+			for(int j = i+1;j < len;j++) { //与其后的元素进行比较
+				if(arr[i] > arr[j]) {  //交换位置(每次都选择比较中最小的元素)
 				swap(arr,i,j);	
 				}
 			}
