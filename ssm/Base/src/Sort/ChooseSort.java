@@ -1,7 +1,7 @@
 package Sort;
 
 import java.util.Scanner;
-//选择排序 时间复杂度O(n^2)
+//选择排序 时间复杂度O(n^2) 空间复杂度O(1) 非稳定排序  原地排序
 public class ChooseSort {
 	
 	public static void sort(int []arr) {
